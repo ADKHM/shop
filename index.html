@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+</head>
+<body>
+    <header class="px-[100px] py-[50px] flex justify-between items-center border-b border-solid border-[#BCAAAA] shadow-md">
+        <img src="image.png" width="205" height="55" alt="">
+        <div class="flex items-center gap-10">
+            <div class="flex items-center gap-2 text-2xl font-semibold text-[#BCAAAA] hover:text-[#EF400F] cursor-pointer">
+                <i class="bx bx-home text-2xl"></i>
+                Home
+            </div>
+            <div class="flex items-center gap-2 text-2xl font-semibold text-[#BCAAAA] hover:text-[#EF400F] transition cursor-pointer">
+                <i class="bx bx-book text-2xl ml-4"></i>
+                Learning
+            </div>
+            <div class="flex items-center gap-2 text-2xl font-semibold text-[#EF400F] cursor-pointer">
+                <i class="bx bx-store text-2xl ml-4"></i>
+                Shop
+            </div>
+        </div>
+        <div class="flex items-center gap-12">
+            <div class="text-2xl font-semibold text-[#EF400F] bg-transparent border-2 border-solid border-[#EF400F] px-4 py-4 rounded-[20px]">
+                + Post yaratish
+            </div>
+            <div class="w-[70px] h-[70px] rounded-full overflow-hidden border-2 border-solid border-yellow-500">
+                <img src="avatar_IMG_20250207_214715_880_2025-02-07-21-49-06.jpeg" class="w-full object-cover" alt="">
+            </div>
+        </div>
+    </header>
+    <main class="px-[100px] pt-[71px]">
+        <div class="flex justify-between items-center">
+            <div class="flex items-center gap-5 text-[40px] font-semibold text-[#0D0C5C]">
+                <img src="image copy.png" width="56" height="56" alt="">
+                Magazin
+            </div>
+            <div class="flex items-center gap-5">
+                <input type="text" name="" id="searchinput" placeholder="Search..." class="w-[300px] h-[60px] bg-black text-[#BCAAAA] rounded-[20px] pl-[30px]">
+                <button id="button" class="bg-[#0D0C5C] cursor-pointer rounded-[20px] h-[60px] w-[100px] text-white text-2xl">Click</button>
+            </div>
+            <div class="text-3xl font-semibold text-[#EF400F]">
+                Haridlar tarixi
+            </div>
+        </div>
+        <div id="container" class="flex gap-6 items-center flex-wrap mt-[120px] justify-center">
+            
+            </div>
+            
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
